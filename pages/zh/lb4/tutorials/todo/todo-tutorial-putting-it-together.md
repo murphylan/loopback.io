@@ -1,13 +1,13 @@
 ---
 lang: zh
-title: '组合在一起'
+title: '把它们放在一起'
 layout: translation
 keywords: LoopBack 4.0, LoopBack 4, Node.js, TypeScript, OpenAPI, Tutorial
 sidebar: zh_lb4_sidebar
 permalink: /doc/zh/lb4/todo-tutorial-putting-it-together.html
 ---
 
-### 组合在一起
+### 把它们放在一起
 
 我们已经完成了所有的组件，且它们都是自动绑定到我们的[应用程序](../../Application.md) 上，这样LoopBack的
 [依赖注入](../../Dependency-injection.md) 系统就可以为我们把所有的组件联系在一起！
@@ -15,18 +15,16 @@ permalink: /doc/zh/lb4/todo-tutorial-putting-it-together.html
 LoopBack的[启动模块](https://github.com/loopbackio/loopback-next/tree/master/packages/boot)将自动发现我们的控制器（Controllers）、
 存储库（Repositories）、数据源（Datasources）和其他组件，并将它们注入我们的应用程序中使用。
 
-> **注意**: 启动模块将扫描并注入约定目录的组件。下面是默认的示例：
+> **注意**: 启动模块将扫描约定目录下的组件并自动注入它们。下面是默认组件分别对应目录的示例：
 >
 > - 控制器（Controllers）: `./src/controllers`
 > - 数据源（Datasources）: `./src/datasources`
 > - 模型（Models）: `./src/models`
 > - 存储库（Repositories）: `./src/repositories`
 >
-> To find out how to customize this behavior, see the
-> [Booters](../../Booting-an-Application.md#booters) section of
-> [Booting an Application](../../Booting-an-Application.md).
+> 要了解如何自定义这种行为，请看应用程序的[启动应用](../../Booting-an-Application.md#booters)部分。
 
-Let's try out our application! First, you'll want to start the app.
+让我们尝试一下我们的应用程序，首先，使用下面的命令启动应用程序。
 
 ```sh
 $ npm start
