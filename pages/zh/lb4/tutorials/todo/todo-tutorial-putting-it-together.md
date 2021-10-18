@@ -35,19 +35,18 @@ Server is running at http://127.0.0.1:3000
 接下来，你可以使用API Explorer来浏览API，并提交Request请求!
 
 {% include note.html content="
-When using the API Explorer, be sure to clear out any default <i><b>filter</b></i> or <i><b>where</b></i> objects in order to see all the data." %}
+当使用API Explorer时, 请务必清空默认的<i><b>filter</b></i> 或者 <i><b>where</b></i> 区域的参数，这样才能返回期望的数据。" %}
 
-Here are some requests you can try:
+这里是一些常见的测试请求：
 
-- `POST /todos` with a body of `{ "title": "get the milk" }`
-- `GET /todos/{id}` using the ID you received from your `POST`, and see if you
-  get your Todo object back.
-- `PATCH /todos/{id}`, using the same ID, with a body of
+- `POST /todos` 请求中附带请求体内容 `{ "title": "get the milk" }`
+- `GET /todos/{id}`使用ID检索上一条 `POST` 请求创建的数据，查看是否有结果返回。
+- `PATCH /todos/{id}`, 使用相同的ID, 同时请求中附带请求体内容
   `{ "desc": "need milk for cereal" }`
 
-That's it! You've just created your first LoopBack 4 application!
+以上内容就是你刚刚创建了的第一个LoopBack 4应用程序!
 
-_Note: Use **CTRL+C** to stop the application_
+_提醒: 使用 **CTRL+C** 快捷键停止运行中的程序_
 
 ### Where to go from here
 
