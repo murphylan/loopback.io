@@ -368,7 +368,7 @@ children:
 
     - title: '把它们放在一起'
       url: /doc/zh/lb4/todo-tutorial-putting-it-together.html
-      translated: true
+      translated: false
       output: 'web, pdf'
 
     - title: '额外：集成地理编码（geo-coding）服务'

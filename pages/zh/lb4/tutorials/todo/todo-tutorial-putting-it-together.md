@@ -32,8 +32,7 @@ $ npm start
 Server is running at http://127.0.0.1:3000  
 ```
 
-Next, you can use the [API Explorer](http://localhost:3000/explorer) to browse
-your API and make requests!
+接下来，你可以使用API Explorer来浏览API，并提交Request请求!
 
 {% include note.html content="
 When using the API Explorer, be sure to clear out any default <i><b>filter</b></i> or <i><b>where</b></i> objects in order to see all the data." %}
